@@ -1,5 +1,5 @@
 //
-// main.c
+// app_main.c
 //
 // Copyright 2018 Makoto Shimazu
 //
@@ -17,8 +17,10 @@
 
 #include <stdio.h>
 #include "nvs_flash.h"
+#include "cpp_main.h"
 
 void app_main() {
   nvs_flash_init();
   printf("hello world!\n");
+  cpp_main();
 }

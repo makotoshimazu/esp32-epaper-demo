@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := spi_master
+PROJECT_NAME := waveshare_epaper_demo
 
 include $(IDF_PATH)/make/project.mk
 
