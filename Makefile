@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := waveshare_epaper_demo
+PROJECT_NAME := esp32-epaper-demo
 
 include $(IDF_PATH)/make/project.mk
 
